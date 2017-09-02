@@ -1,0 +1,27 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn HTML 5</title>
+</head>
+<body>
+	<div id="container">HTML semantics </div>
+		<header></header>
+			<nav>
+			</nav>
+			<!-- Main part in web  -->
+			<main>
+				<section>
+					<header></header>
+					<!-- Independent area -->
+					<article></article>
+		 		</section>
+			<!-- Sidebar -->
+			<aside>	</aside>
+			</main>
+		<footer></footer>
+	</body>
+</html>
