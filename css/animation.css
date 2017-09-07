@@ -1,0 +1,75 @@
+    div {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#div1 {
+    padding: 20px;
+    border: 2px solid black;
+    background: olive;
+    box-shadow: 20px 20px 50px green;
+    transition: 2s;
+    float: left;
+    animation: anim1 15sec;
+}
+
+#div1:hover {
+    padding: 50px;
+    border: 50px solid olive;
+    background: olive;
+    box-shadow: 20px 20px 50px yellow;
+    color: aliceblue;
+    animation: anim3;
+    animation-duration: 2s;
+    border-radius: 0;
+}
+
+
+/* keyframes*/
+
+@keyframes anim1 {
+    from {
+        background: orange;
+    }
+    to {
+        background: red;
+    }
+}
+
+@keyframes anim2 {
+    0% {
+        background: olive;
+        border-radius: 0;
+    }
+    25% {
+        background: red;
+        border-radius: 500px;
+    }
+    50% {
+        background: brown;
+        border-radius: 250px;
+    }
+    100% {
+        background: olive;
+        border-radius: 0;
+    }
+}
+
+@keyframes anim3 {
+    0% {
+        background: olive;
+        padding: 20px;
+        25% {
+            background: red;
+            padding: 100px;
+        }
+        50% {
+            background: brown;
+            padding: 75px;
+        }
+        100% {
+            background: olive;
+            padding: 50px;
+        }
+    }

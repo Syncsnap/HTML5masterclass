@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Learn HTML5 & CSS3</title>
+    <style>
+        #div1 {
+            background: green;
+            border: 1px solid black;
+            width: 200px;
+            margin: 10px;
+            color: black;
+/*            Cool in combinatie met transitions!*/
+            /*            Text gaat buiten de container. laten zien of niet?*/
+            overflow: hidden;
+            /*            Handles how to handle whitespace*/
+            white-space: nowrap;
+            /*       Dots for continue*/
+            text-overflow: ellipsis;
+        }
+        
+        #div2 {
+            background: green;
+            border: 1px solid black;
+            width: 200px;
+            margin: 10px;
+            color: black;
+            /*            Dots for continue*/
+            text-overflow: ellipsis;
+            word-wrap: break-word;
+            /*            How to break words in regards to white space*/
+            word-break: break-all;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="div1"><a href="CSS3%20Transition.html">klik op mij</a></div>
+    <div id="div2">Deeze text, The basic text without any meaning.Vogelbekdierenzijnook dieren</div>
+</body>

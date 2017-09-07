@@ -1,0 +1,28 @@
+div {
+    padding: inherit;
+    margin-top: auto;
+    text-align: center;
+    font-size: 23px;
+    color: firebrick;
+    text-shadow: 2px 2px 20px black;
+}
+
+#div1 {
+    height: 200px;
+    width: 300px;
+    border: 2px solid blue;
+    background: yellow;
+    box-shadow: 20px 20px 14px blue;
+    border-radius: 50px;
+    transition: background 3s, width 3s linear;
+/*    transition: background 3s, width 3s ease-in;*/
+/*    transition: background 3s, width 3s ease-out;*/
+/*    transition-duration: 5s;*/
+}
+
+#div1:hover {
+    background: black;
+    width: 500px;
+    margin-top: 200px;
+    margin-left: 200px;
+}

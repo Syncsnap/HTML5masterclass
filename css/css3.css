@@ -1,0 +1,22 @@
+#div1 {
+    padding: 100px;
+    border: 2px solid red;
+    background: brown;
+/*    transform: rotatey(180deg);*/
+    text-shadow: 0 0 20px white;
+    margin: 100px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    box-shadow: 30px 15px 70px black;
+    transform: skew(170deg);
+    border-radius: 200px;
+}
+
+a   {
+       text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
