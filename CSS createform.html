@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <style>
+        form {
+            font-family: Arial;
+            background: #F1F1F1;
+            width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        .form-group {
+            margin: 25px 0;
+        }
+        
+        .form-group label {
+            font-size: 18px;
+        }
+        
+        .form-group input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            box-shadow: inset 0px 0px 10px gray, 0 0 0 lightgreen;
+            border: 1px solid gray;
+            outline: none;
+            margin-top: 5px;
+            transition: box-shadow 4s;
+        }
+        
+        .form-group input:focus {
+            box-shadow: inset 0 0 10px gray, 0 0 10px lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <h2>The Form</h2>
+        <hr>
+        <div class="form-group">
+            <label for="user-name">user name*</label>
+            <input type="text" id="user-name" placeholder="insert your name" required autofocus>
+        </div>
+        <!--    </form>-->
+        <!--    <form>-->
+        <div class="form-group">
+            <label for="user-name">password*</label>
+            <input type="password" id="user-name" placeholder="Insert your password" required>
+        </div>
+        <!--    </form>-->
+        <!--    <form>-->
+        <div class="form-group">
+            <label for="user-name">E-mail</label>
+            <input type="email" id="user-name">
+        </div>
+        <!--    </form>-->
+        <!--    <form>-->
+        <div class="form-group">
+            <label for="user-name">contact number</label>
+            <input type="number" id="user-name" min="2" max="4">
+        </div>
+        <!--    </form>-->
+        <!--        <form>-->
+        <div class="form-group">
+            <label for="user-name">Select country</label>
+            <input type="text" id="user-name">
+        </div>
+        <!--        </form>-->
+        <!--        <form>-->
+        <div class="form-group">
+            <label for="user-name">birthday</label>
+            <input type="time" id="user-name">
+        </div>
+        <div class="form-group">
+            <label for="user-name">select your country</label>
+            <input list="country">
+            <datalist id="country"> 
+            <option>Netherlands</option>
+            <option>Sri Lanka</option>
+            <option>Belgium</option>
+            <option>Germany</option>
+            </datalist>
+        </div>
+        <!--    </form>-->
+        <!--            <form>-->
+        <div class="form-group">
+
+            <input type="submit" value="submit-form">
+        </div>
+    </form>
+
+</body>
+</html>
